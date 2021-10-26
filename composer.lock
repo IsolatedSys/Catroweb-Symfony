@@ -5682,21 +5682,21 @@
         },
         {
             "name": "rosell-dk/image-mime-type-guesser",
-            "version": "0.3",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rosell-dk/image-mime-type-guesser.git",
-                "reference": "204fd61ca81e3b0ba46c6165dab8f74816b1fe99"
+                "reference": "5915934d66a7869cecc7141adf90581aad81023d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rosell-dk/image-mime-type-guesser/zipball/204fd61ca81e3b0ba46c6165dab8f74816b1fe99",
-                "reference": "204fd61ca81e3b0ba46c6165dab8f74816b1fe99",
+                "url": "https://api.github.com/repos/rosell-dk/image-mime-type-guesser/zipball/5915934d66a7869cecc7141adf90581aad81023d",
+                "reference": "5915934d66a7869cecc7141adf90581aad81023d",
                 "shasum": ""
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.11",
-                "phpunit/phpunit": "^5.7.27",
+                "phpunit/phpunit": "^9.3",
                 "squizlabs/php_codesniffer": "3.*"
             },
             "type": "library",
@@ -5735,31 +5735,41 @@
             ],
             "support": {
                 "issues": "https://github.com/rosell-dk/image-mime-type-guesser/issues",
-                "source": "https://github.com/rosell-dk/image-mime-type-guesser/tree/0.3"
+                "source": "https://github.com/rosell-dk/image-mime-type-guesser/tree/0.3.1"
             },
-            "time": "2019-03-29T09:33:28+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/rosell-dk",
+                    "type": "github"
+                },
+                {
+                    "url": "https://ko-fi.com/rosell",
+                    "type": "ko_fi"
+                }
+            ],
+            "time": "2021-06-30T19:14:59+00:00"
         },
         {
             "name": "rosell-dk/webp-convert",
-            "version": "2.4.0",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rosell-dk/webp-convert.git",
-                "reference": "187a578ee55730f7a128a2f07b4351524b10d47b"
+                "reference": "9f1677e56352b7aa23f00680d4ed41d53f3c4d8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rosell-dk/webp-convert/zipball/187a578ee55730f7a128a2f07b4351524b10d47b",
-                "reference": "187a578ee55730f7a128a2f07b4351524b10d47b",
+                "url": "https://api.github.com/repos/rosell-dk/webp-convert/zipball/9f1677e56352b7aa23f00680d4ed41d53f3c4d8a",
+                "reference": "9f1677e56352b7aa23f00680d4ed41d53f3c4d8a",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 | ^7.0",
+                "php": "^5.6 | ^7.0 | ^8.0",
                 "rosell-dk/image-mime-type-guesser": "^0.3"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.11",
-                "phpunit/phpunit": "5.7.27",
+                "phpunit/phpunit": "^9.3",
                 "squizlabs/php_codesniffer": "3.*"
             },
             "suggest": {
@@ -5815,7 +5825,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rosell-dk/webp-convert/issues",
-                "source": "https://github.com/rosell-dk/webp-convert/tree/2.4.0"
+                "source": "https://github.com/rosell-dk/webp-convert/tree/2.7.0"
             },
             "funding": [
                 {
@@ -5827,7 +5837,7 @@
                     "type": "ko_fi"
                 }
             ],
-            "time": "2020-11-10T11:24:50+00:00"
+            "time": "2021-10-25T08:34:22+00:00"
         },
         {
             "name": "ruflin/elastica",
@@ -17329,5 +17339,5 @@
         "ext-posix": "7.4",
         "ext-zip": "1.15.4"
     },
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
