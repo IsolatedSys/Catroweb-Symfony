@@ -71,7 +71,7 @@
     "grunt-contrib-uglify-es": "github:gruntjs/grunt-contrib-uglify#harmony",
     "jquery": "^3.5.1",
     "jquery-contextmenu": "^2.9.2",
-    "jquery-ui-dist": "^1.12.1",
+    "jquery-ui-dist": "^1.13.1",
     "js-yaml": "^4.0.0",
     "lazysizes": "^5.3.0",
     "material-design-icons": "^3.0.1",
